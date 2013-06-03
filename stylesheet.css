@@ -98,7 +98,11 @@ nav li a:hover{
     margin-top: 30px;    
 }
 
-#mainmessage{
+.boxleft, .boxcenter, .boxright{
+	display: none;
+}
+
+.originalmessage h1, .boxleft h1, .boxcenter h1, .boxright h1{
 	margin: 0 auto;
 	margin-top: 20px;
 	width:825px;
@@ -112,10 +116,21 @@ nav li a:hover{
 	color: #232323;
 }
 
-#secondmessage{
+.boxleft h1, .boxcenter h1, .boxright h1 {
+	font-size: 46px;
+	line-height: 1.3cm;
+}
+
+.boxleft span, .boxcenter span, .boxright span {
+	color: #336699;
+	text-decoration: underline;
+}
+
+
+.originalmessage h5, .boxleft p, .boxcenter p, .boxright p{
 	margin: 0 auto;
 	margin-top: 10px;
-	width:825px;
+	width:810px;
 	font-weight: 500;
 	font-size: 20px;
 	font-style: normal;
@@ -126,13 +141,41 @@ nav li a:hover{
 	color: #232323;
 }
 
+.boxleft p, .boxcenter p, .boxright p{
+	font-size: 15px;
+	line-height: .5cm;
+	margin-bottom: 1.17cm;
+}
+
+.boxleft img{
+	position: absolute;
+	margin-left: 470px;
+	margin-top: -35px;
+}
+
+.boxcenter img{
+	position: absolute;
+	margin-left: 690px;
+	margin-top: -35px;
+}
+
+.boxright img{
+	position: absolute;
+	margin-left: 755px;
+	margin-top: -35px;
+}
+
+
+
 #boxwrapper{
 	margin: 0 auto;
 	margin-top: 10px;
 	text-align: center;
 	width: 700px;
 }
-#box{
+
+
+.box1, .box2, .box3{
 	width: 180px;
 	height: 243px;
 	border: 1px solid #e8e8e8;
@@ -144,20 +187,20 @@ nav li a:hover{
 	font-family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
-#box img{
+.box1 img, .box2 img, .box3 img{
 	padding-top: 15px;
 	display: block;
 	margin: 0 auto;
 	
 }
 
-#box a{
+.box1 a, .box2 a, .box3 a{
 	font-size: 21px;
 	color: #369;
 	font-weight: bold;
 }
 
-#box sup{
+.box1 sup, .box2 sup, .box3 sup{
 	display: inline-block;
 	vertical-align: super;
 	font-size: 11px;
@@ -165,14 +208,14 @@ nav li a:hover{
 	margin-left: -5px;
 }
 
-#box h4{
+.box1 h4, .box2 h4, .box3 h4{
 	margin-top: 15px;
 	font-size: 14px;
 	color: #cc0000;
 	font-weight: bold;
 }
 
-#box h5{
+.box1 h5, .box2 h5, .box3 h5{
 	margin-top: 20px;
 	font-size: 14px;
 	line-height: 1.4em;
