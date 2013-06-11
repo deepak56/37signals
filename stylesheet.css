@@ -147,11 +147,28 @@ nav li a:hover{
 	margin-bottom: 1.17cm;
 }
 
-.boxleft img{
+#arrowleft{
 	position: absolute;
-	margin-left: 470px;
+	display: none;
+	margin-left: 145px;
 	margin-top: -35px;
 }
+
+#arrowcenter{
+	position: absolute;
+	display: none;
+	margin-left: 150px;
+	margin-top: -35px;
+}
+
+#arrowright{
+	position: absolute;
+	display: none;
+	margin-left: -40px;
+	margin-top: -35px;
+}
+
+
 
 .boxcenter img{
 	position: absolute;
